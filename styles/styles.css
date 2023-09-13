@@ -1,0 +1,21 @@
+.booktitle {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+div {
+    flex: 1;
+}
