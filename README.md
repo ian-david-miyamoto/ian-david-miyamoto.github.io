@@ -1,2 +1,1 @@
-# ian-david-miyamoto.github.io
-my personal webpage
+this is my personal webpage
