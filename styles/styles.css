@@ -1,21 +1,62 @@
-.booktitle {
-    font-style: italic;
-}
-
-a:hover {
-    text-decoration: none;
-}
+/* Basic structure */
 
 body {
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    /* background: linear-gradient(90deg, lightgrey 0%, white 20%, white 80%, lightgrey 100%); */
 }
 
-header {
+p {
+    text-align: justify;
+}
+
+.top-matter {
     display: flex;
+    justify-content: space-between;
 }
 
-div {
-    flex: 1;
+.picture {
+    max-width: 350px;
+}
+
+img.picture ~ figcaption {
+    text-align: right;
+}
+
+.unnumbered {
+    list-style: none;
+}
+
+.courses {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.courses tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+table.courses caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+/* Navigation */
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+/* Text formatting */
+
+.booktitle {
+    font-style: italic;
 }
