@@ -1,33 +1,153 @@
-/* Basic structure */
+/* Body */
 
 body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.wrapper {
     width: 90%;
     max-width: 900px;
-    margin: 0 auto;
-    background-color: lightgoldenrodyellow;
-    /* background: linear-gradient(90deg, lightgrey 0%, white 20%, white 80%, lightgrey 100%); */
+    margin: auto;
+}
+
+.wrapper.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+
+nav a {
+    font-size: larger;
+    padding: 0 15px 0;
+    margin: 0 auto auto auto;
+    line-height: 2;
+    outline: 1px solid black;
+}
+
+nav a:link, nav a:visited, nav a:focus {
+    background: lightgrey;
+    color: black;
+    transition: background 0.5s;
+}
+
+nav a:hover {
+    background: darkgrey;
+}
+
+
+/* Header */
+
+header {
+    padding: 15px;
+    background-color: lightskyblue;
+    border-bottom: 2px solid black;
+}
+
+/* Main */
+
+section {
+    border-bottom: 2px solid black;
 }
 
 p {
     text-align: justify;
 }
 
-.top-matter {
-    display: flex;
-    justify-content: space-between;
+figure {
+    margin-right: 0px;
 }
 
 .picture {
-    max-width: 350px;
+    max-height: 100%;
 }
 
 img.picture ~ figcaption {
-    text-align: right;
+    text-align: center;
 }
 
 .unnumbered {
     list-style: none;
 }
+
+/* Text formatting */
+
+.booktitle, .journaltitle {
+    font-style: italic;
+}
+
+/* Bibliography */
+
+.publist {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.publist .bibitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.publist .bibitem .data {
+    max-width: 600px;
+}
+
+.publist .title {
+    font-weight: bold;
+    color: #21618C;
+}
+
+.publist .author {
+}
+
+.publist .journal {
+}
+
+.publist .misc {
+}
+
+.publist .links{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.publist .links a {
+    margin: 0px auto auto auto;
+    padding: 0 5px 0;
+    line-height: 2;
+    width: 40px;
+    text-align: center;
+    font-size: small;
+    color: black;
+    background: skyblue;
+    outline-style: outset;
+}
+
+.publist .links a:hover {
+    background: skyblue;
+    color: black;
+    outline-style: inset;
+}
+
+/* Courses table */
 
 .courses {
     table-layout: fixed;
@@ -37,26 +157,10 @@ img.picture ~ figcaption {
 }
 
 table.courses tbody tr:nth-child(odd) {
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 
 table.courses caption {
     caption-side: bottom;
     text-align: right;
-}
-
-/* Navigation */
-
-.navigation-buttons {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-
-
-/* Text formatting */
-
-.booktitle {
-    font-style: italic;
 }
