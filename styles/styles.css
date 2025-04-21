@@ -1,4 +1,4 @@
-/* Body */
+/************************* Body *************************/
 
 /* Colors  */
 /* #021526 */
@@ -37,7 +37,7 @@ a:hover{
     color: #E2E2B6;
 }
 
-/* Navigation */
+/************************* Navigation *************************/
 
 nav {
     display: flex;
@@ -68,7 +68,7 @@ header a:hover {
 }
 
 
-/* Header */
+/************************* Header *************************/
 
 header {
     padding: 15px;
@@ -76,7 +76,7 @@ header {
     border-bottom: 2px solid #E2E2B6;
 }
 
-/* Main */
+/************************* Main *************************/
 
 section {
     /* border-bottom: 2px solid #E2E2B6; */
@@ -106,13 +106,13 @@ img.picture ~ figcaption {
     list-style: none;
 }
 
-/* Text formatting */
+/************************* Text formatting *************************/
 
-.booktitle, .journaltitle {
+.booktitle, .journaltitle, .term-of-art{
     font-style: italic;
 }
 
-/* Bibliography */
+/************************* Bibliography *************************/
 
 .publist {
     list-style: none;
@@ -138,6 +138,15 @@ img.picture ~ figcaption {
 }
 
 .publist .journal {
+}
+
+.publist .abstract{
+}
+
+.publist .abstract-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
 .publist .misc {
@@ -170,7 +179,36 @@ img.picture ~ figcaption {
     /* outline-style: inset; */
 }
 
-/* Courses table */
+.publist button {
+    margin: 0px auto auto auto;
+    padding: 0 5px 0;
+    line-height: 2;
+    /* width: 40px; */
+    text-align: center;
+    font-size: small;
+    color: black;
+    background: #6EACDA;
+    /* outline-style: outset; */
+    transition: 0.5s;
+    /* font-weight: bold; */
+    border-radius: 25px;
+}
+
+.publist button:hover {
+    background: #E2E2B6;
+    color: black;
+    /* outline-style: inset; */
+}
+
+.publist button:before {
+    content: '\002B \0020';
+}
+
+.publist .active:before {
+    content: '\2212 \0020';
+}
+
+/************************* Courses table *************************/
 
 .courses {
     table-layout: fixed;
