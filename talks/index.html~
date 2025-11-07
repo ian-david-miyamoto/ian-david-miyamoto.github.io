@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <meta charset="utf-8">
+    <meta name="author" content="David Miyamoto">
+    <meta name="description" content="David Miyamoto's research webpage">
+    <title>David Miyamoto</title>
+  </head>
+
+  <body>
+
+
+    <header>
+      <div class="wrapper flex">
+	<h1><a href="../index.html">David Miyamoto</a></h1>
+	<nav>
+	  <a href="../index.html">About</a>
+	  <a href="index.html">Research</a>
+	  <a href="../teaching/index.html">Teaching</a>
+	</nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+	<div class="wrapper">
+	  <h2 id="Research">Research</h2>
+	  
+	  <p> In reverse chronological order.</p>
+
+	  <h3>Published</h3>
+
+	  <ol class="publist">
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Riemannian foliations and quasifolds
+		</div>
+		<div class="author">
+		  Yi Lin, David Miyamoto
+		</div>
+		<div class="journal">
+		  <span class="journaltitle">Math. Z.</span> 308 (2024) no. 49, p. 32
+		</div>
+		<button type="button" class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> It is well known that, by the Reeb stability theorem, the leaf space of a Riemannian foliation with compact leaves is an orbifold. We prove that, under mild completeness conditions, the leaf space of a Killing Riemannian foliation is a diffeological quasifold: as a diffeological space, it is locally modelled by quotients of Cartesian space by countable groups acting affinely. Furthermore, we prove that the holonomy groupoid of the foliation is, locally, Morita equivalent to the action groupoid of a countable group acting affinely on Cartesian space.</p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1007/s00209-024-03595-5">DOI</a>
+		<a href="https://arxiv.org/abs/2309.15166">arXiv</a> 
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Diffeological submanifolds and their friends
+		</div>
+		<div class="author">
+		  Yael Karshon, David Miyamoto, Jordan Watts
+		</div>
+		<div class="journal">
+		  <span class="journaltitle">Differential Geom. Appl.</span> 96 (2024), p. 14
+		</div>
+		<button type="button" class="abstract"> Abstract</button>
+		<div class="abstract-content">
+		  <p> A smooth manifold hosts different types of submanifolds, including embedded, weakly-embedded, and immersed submanifolds. The notion of an immersed submanifold requires additional structure (namely, the choice of a topology); when this additional structure is unique, we call the subset a <span class="term-of-art">uniquely immersed submanifold</span>. Diffeology provides yet another intrinsic notion of submanifold: a <span class="term-of-art">diffeological submanifold</span>. </p>
+
+		  <p> We show that from a categorical perspective diffeology rises above the others: viewing manifolds as a concrete category over the category of sets, the <span class="term-of-art">initial morphisms</span> are exactly the (diffeological) <span class="term-of-art">inductions</span>, which are the diffeomorphisms with diffeological submanifolds. Moreover, if we view manifolds as a concrete category over the category of topological spaces, we recover Joris and Preissmann's notion of <span class="term-of-art">pseudo-immersions</span>. </p>
+
+		  <p> We show that these notions are all different. In particular, a theorem of Joris from 1982 yields a diffeological submanifold whose inclusion is not an immersion, answering a question that was posed by Iglesias-Zemmour. We also characterize local inductions as those pseudo-immersions that are locally injective. </p>
+
+		  <p> In appendices, we review a proof of Joris' theorem, pointing at a flaw in one of the several other proofs that occur in the literature, and we illustrate how submanifolds inherit paracompactness from their ambient manifold. </p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1016/j.difgeo.2024.102170">DOI</a>
+		<a href="https://arxiv.org/abs/2204.10381">arXiv</a>
+	      </div>
+	    </li>
+	    
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Singular foliations through diffeology
+		</div>
+		<div class="author">
+		  David Miyamoto
+		</div>
+		<div class="journal">
+		  <span class="journaltitle">Recent advances on diffeologies and their applications</span>. Vol. 794. Contemp. Math. Amer. Math. Soc., [Providence], RI, 2024, pp. 139-160
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> A singular foliation is a partition of a manifold into leaves of perhaps varying dimension. Stefan and Sussmann carried out fundamental work on singular foliations in the 1970s. We survey their contributions, show how diffeological objects and ideas arise naturally in this setting, and highlight some consequences within diffeology. We then introduce a definition of transverse equivalence of singular foliations, following Molino's definition for regular foliations. We show that, whereas transverse equivalent singular foliations always have diffeologically diffeomorphic leaf spaces, the converse holds only for certain classes of singular foliations. We finish by showing that the basic cohomology of a singular foliation is invariant under transverse equivalence.</p>
+		</div>
+
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1090/conm/794/15940">DOI</a>
+		<a href="https://arxiv.org/abs/2303.07494">arXiv</a>
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Quasifold groupoids and diffeological quasifolds
+		</div>
+		<div class="author">
+		  Yael Karshon, David Miyamoto
+		</div>
+		<div class="journal">
+		  <span class="journaltitle">Transformation Groups</span>. (2023), p. 35
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> Quasifolds are spaces that are locally modelled by quotients of <math><msup><mi>&#x211D;</mi><mi>n</mi></msup></math> by countable affine group actions. These spaces first appeared in Elisa Prato’s generalization of the Delzant construction, and special cases include leaf spaces of irrational linear flows on the torus, and orbifolds. We consider the category of diffeological quasifolds, which embeds in the category of diffeological spaces, and the bicategory of quasifold groupoids, which embeds in the bicategory of Lie groupoids, (right-)principal bibundles, and bibundle morphisms. We prove that, restricting to those morphisms that are locally invertible, and to quasifold groupoids that are effective, the functor taking a quasifold groupoid to its diffeological orbit space is an equivalence of the underlying categories. These results complete and extend earlier work with Masrour Zoghi.</p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1007/s00031-023-09826-z">DOI</a>
+		<a href="https://arxiv.org/abs/2206.14776">arXiv</a>
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  The basic de Rham complex of a singular foliation
+		</div>
+		<div class="author">
+		  David Miyamoto
+		</div>
+		<div class="journal">
+		  <span class="journaltitle">Int. Math. Res. Not. IMRN</span> 8 (2023), pp. 6364-6401 
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> A singular foliation <math><mi>F</mi></math> gives a partition of a manifold <math><mi>M</mi></math> into leaves whose dimension may vary. Associated to a singular foliation are two complexes, that of the diffeological differential forms on the leaf space <math><mi>M</mi><mo>/</mo><mi>F</mi></math> and that of the basic differential forms on <math><mi>M</mi></math>⁠. We prove the pullback by the quotient map provides an isomorphism of these complexes in the following cases: when <math><mi>F</mi></math> is a regular foliation, when points in the leaves of the same dimension assemble into an embedded (more generally, diffeological) submanifold of <math><mi>M</mi></math>⁠, and, as a special case of the latter, when <math><mi>F</mi></math> is induced by a linearizable Lie groupoid or is a singular Riemannian foliation. </p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1093/imrn/rnac044">DOI</a>
+		<a href="https://arxiv.org/abs/2102.10091">arXiv</a>
+	      </div>
+	    </li>
+	  </ol>
+	  
+	  <h3>Preprints</h3>
+	  
+	  <ol class="publist">
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Lie algebras of quotient groups
+		</div>
+		<div class="author">
+		  David Miyamoto
+		</div>
+		<div class="journal">
+		  Submitted preprint. 2025. 44 pages
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> We give conditions on a diffeological group <math><mi>G</mi></math> and a normal subgroup <math><mi>H</mi></math> under which the quotient group <math><mi>G</mi><mo>/</mo><mi>H</mi></math> differentiates to a Lie algebra, and <math><mi>Lie</mi><mo>(</mo><mi>G</mi><mo>/</mo><mi>H</mi><mo>)</mo><mo>≅</mo><mi>Lie</mi><mo>(</mo><mi>G</mi><mo>)</mo><mo>/</mo><mi>Lie</mi><mo>(</mo><mi>H</mi><mo>)</mo></math>. Our Lie functor is derived from the tangent structure on elastic diffeological spaces introduced by Blohmann. The requisite conditions on <math><mi>G</mi></math> and <math><mi>H</mi></math> hold when <math><mi>G</mi></math> is a convenient infinite-dimensional Lie group and all iterated tangent bundles <math><msup><mi>T</mi><mi>k</mi></msup><mi>H</mi></math> are initial subgroups of <math><msup><mi>T</mi><mi>k</mi></msup><mi>G</mi></math>; in particular, G may be finite-dimensional, or H may be countable. As an application, we integrate some classically non-integrable Banach-Lie algebras to diffeological groups.  </p> 
+		</div>
+	      </div>
+		<div class="links">
+		  <a href="https://arxiv.org/abs/2502.10260">arXiv</a>
+		</div>
+	    </li>
+	    
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Lie groupoids determined by their orbit spaces
+		</div>
+		<div class="author">
+		  David Miyamoto
+		</div>
+		<div class="journal">
+		  Submitted preprint. 2024. 34 pages
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> Given a Lie groupoid, we can form its orbit space, which carries a natural diffeology. More generally, we have a quotient functor from the Hilsum-Skandalis category of Lie groupoids to the category of diffeological spaces. We introduce the notion of a lift-complete Lie groupoid, and show that the quotient functor restricts to an equivalence of the categories: of lift-complete Lie groupoids with isomorphism classes of surjective submersive bibundles as arrows, and of quasi-étale diffeological spaces with surjective local subductions as arrows. In particular, the Morita equivalence class of a lift-complete Lie groupoid, alternatively a lift-complete differentiable stack, is determined by its diffeological orbit space. Examples of lift-complete Lie groupoids include quasifold groupoids and étale holonomy groupoids of Riemannian foliations. </p> 
+		</div>
+
+	      </div>
+	      <div class="links">
+		<a href="https://arxiv.org/abs/2310.11968">arXiv</a>
+	      </div>
+	    </li>
+	  </ol>
+
+	  <h3>Thesis</h3>
+	  
+	  <ol class="publist">
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Geometry of leaf spaces of singular foliations
+		</div>
+		<div class="author">
+		  David Miyamoto
+		</div>
+		<div class="journal">
+		  Thesis (Ph.D.) University of Toronto (Canada). ProQuest LLC, Ann Arbor, MI, 2023, p, 104
+		</div>
+		<button type="button"  class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> This thesis has three parts. First, we survey Stefan and Sussmann’s work on singular foliations, highlighting diffeological objects that arise. We then propose a transverse equivalence of singular foliations, and show: equivalent foliations have diffeomorphic leaf spaces; the converse need not hold; and regular foliations with Hausdorff holonomy groupoid are transverse equivalent if and only if they are Morita equivalent. </p>
+		  
+		  <p> Second, we show that for a singular foliation <math><mo>(</mo><mi>M</mi>,<mi>F</mi><mo>)</mo></math>, the quotient <math><mi>π</mi><mo>:</mo> <mi>M</mi> <mo>→</mo> <mi>M</mi><mo>/</mo><mi>F</mi></math> induces an isomorphism <math><msup><mi>π</mi><mi>∗</mi></msup> <mo>:</mo> <msup><mi>Ω</mi><mi>•</mi></msup><mo>(</mo><mi>M</mi><mo>/</mo><mi>F</mi><mo>)</mo> <mo>→</mo> <msup><mi>Ω</mi><mi>•</mi></msup><mo>(</mo><mi>M</mi>,<mi>F</mi><mo>)</mo></math>, where <math><msup><mi>Ω</mi><mi>•</mi></msup><mo>(</mo><mi>M</mi>,<mi>F</mi><mo>)</mo></math> denotes the complex of <math><mi>F</mi></math>-basic forms on <math><mi>M</mi></math>, when: <math><mi>F</mi></math> is regular; when the union of <math><mi>k</mi></math>-leaves is a diffeological submanifold, for all <math><mi>k</mi></math>; and when <math><msup><mi>π</mi><mi>∗</mi></msup></math> is an isomorphism if we excise the <math><mn>0</mn></math>-leaves. </p>
+		  <p> Finally, we introduce diffeological quasifolds and quasifold groupoids. A quasifold is locally modelled by the affine action of countable groups <math><mi>Γ</mi></math> on <math><msup><mi>&#x211D;</mi><mi>n</mi></msup></math>. When the <math><mi>Γ</mi></math> are finite, we recover orbifolds. We show that the categories of diffeological quasifolds and quasifold groupoids are equivalent, when we restrict the arrows to local diffeomorphisms and locally invertible bibundles, respectively. </p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://www.proquest.com/dissertations-theses/geometry-leaf-spaces-singular-foliations/docview/2889858271/se-2">DOI</a>
+		<a href="../files/thesis-miyamoto.pdf">PDF</a>
+	      </div>
+	    </li>
+
+	  </ol>
+	  
+	  <h3>Other Projects</h3>
+	  <p>Individually authored unless otherwise stated</p>
+	  <ol class="publist">
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Quasifolds as groupoids and as diffeological spaces
+		</div>
+		<div class="misc">
+		  A poster I presented at the Poisson 2022 conference in Madrid
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="../files/poster-quasifolds.pdf">PDF</a>
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Basic forms on foliated manifolds
+		</div>
+		<div class="misc">
+		  A poster I presented at the 2019 <abbr title="Canadian Mathematical Society">CMS</abbr> Winter Meeting in Toronto
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="../files/poster-basic-forms.pdf">PDF</a>
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Characterizing U(1,1) and translation-invariant generalized convex valuations on C<sup>2</sup>
+		</div>
+		<div class="misc">
+		  My master's project, completed in 2018
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="../files/project-masters.pdf">PDF</a>
+	      </div>
+	    </li>
+
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Dvoretzky's theorem and concentration of measure
+		</div>
+		<div class="misc">
+		  A project I completed for a seminar course taught by Dmitry Panchenko in 2016, at the end of my bachelor degree
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="../files/project-dvoretzky.pdf">PDF</a>
+	      </div>
+	    </li>
+	  </ol>
+      </section>
+    </main>
+
+    <script>     
+      let abstractsList = document.getElementsByClassName("abstract")
+
+      for (abs of abstractsList) {
+	  abs.addEventListener("click", function () {
+	      this.classList.toggle("active");
+	      content = this.nextElementSibling;
+	      if (content.style.maxHeight) {
+		  content.style.maxHeight = null;
+	      } else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+	      }
+	  });
+      }
+    </script>
+  </body>
+</html> 

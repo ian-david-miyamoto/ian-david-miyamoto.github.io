@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <meta charset="utf-8">
+    <meta name="author" content="David Miyamoto">
+    <meta name="description" content="David Miyamoto's research webpage">
+    <title>David Miyamoto</title>
+  </head>
+
+  <body>
+
+
+    <header>
+      <div class="wrapper flex">
+	<h1><a href="../index.html">David Miyamoto</a></h1>
+	<nav>
+	  <a href="../index.html">About</a>
+	  <a href="index.html">Research</a>
+	  <a href="../teaching/index.html">Teaching</a>
+	</nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+	<div class="wrapper">
+	  <h2 id="Research">Talks</h2>
+	  
+	  <ol class="publist">
+	    <li class="bibitem">
+	      <div class="data">
+		<div class="title">
+		  Lie algebras of quotient groups
+		</div>
+		<div class="seminar">
+Global online diffeology seminar
+		</div>
+		<div class="location">
+		  online
+		</div>
+		<button type="button" class="abstract">Abstract</button>
+		<div class="abstract-content">
+		  <p> It is well known that, by the Reeb stability theorem, the leaf space of a Riemannian foliation with compact leaves is an orbifold. We prove that, under mild completeness conditions, the leaf space of a Killing Riemannian foliation is a diffeological quasifold: as a diffeological space, it is locally modelled by quotients of Cartesian space by countable groups acting affinely. Furthermore, we prove that the holonomy groupoid of the foliation is, locally, Morita equivalent to the action groupoid of a countable group acting affinely on Cartesian space.</p>
+		</div>
+	      </div>
+	      <div class="links">
+		<a href="https://doi.org/10.1007/s00209-024-03595-5">slides</a>
+	      </div>
+	    </li>
+	  </ol>
+	  
+      </section>
+    </main>
+
+    <script>     
+      let abstractsList = document.getElementsByClassName("abstract")
+
+      for (abs of abstractsList) {
+	  abs.addEventListener("click", function () {
+	      this.classList.toggle("active");
+	      content = this.nextElementSibling;
+	      if (content.style.maxHeight) {
+		  content.style.maxHeight = null;
+	      } else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+	      }
+	  });
+      }
+    </script>
+  </body>
+</html> 
